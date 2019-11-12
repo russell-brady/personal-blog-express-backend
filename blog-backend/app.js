@@ -3,12 +3,12 @@ const mongoose = require('mongoose');
 const app = express()
 const morgan = require('morgan')
 const bodyParser = require('body-parser')
-
-app.use(bodyParser.urlencoded({ extended: false }));
+ 
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(morgan('dev'));
 
-app.use(require('./routes/crud.js'))
+app.use("/blogs", require('./routes/blogs.js'))
 
 app.get("/", (req, res) => {
     console.log("Responding to root route")
