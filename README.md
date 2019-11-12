@@ -1,2 +1,2 @@
-# personal_blog
-This is my own personal blog. 
+# Blog site created with React, Node.js, Express.js and MongoDB
+
