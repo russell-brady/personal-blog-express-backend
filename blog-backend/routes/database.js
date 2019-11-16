@@ -7,6 +7,7 @@ mongoose.connect(dbRoute, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     poolSize: 10,
+    useFindAndModify: false
 });
 
 let db = mongoose.connection;
