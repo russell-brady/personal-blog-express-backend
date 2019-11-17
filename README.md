@@ -15,7 +15,7 @@ cd blog-frontend
 npm install
 ```
 
-2. Then, head on to MongoDB atlas and create an account there. [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) will let you use a free 500 MB of MongoDB database and use it remotely. It is also hosted in the cloud. After setting up your account, log into your account. Follow the steps prompted by the website in creating your own cluster. After setting up your account, log into your account. Get the connection string of your database.
+2. Then, head on to MongoDB atlas and create an account there. [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) will let you use a free 500 MB of MongoDB database and use it remotely. It is also hosted in the cloud. After setting up your account, log into your account. Follow the steps prompted by the website in creating your own cluster. Get the connection string of your database.
 
 3. Next, you should create a .env file in the root directory. To do this, run:
 
