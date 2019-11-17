@@ -1,5 +1,5 @@
 const app = require('./routes/app.js')
-const database = require('./routes/database.js')
+const database = require('./routes/database/database.js')
 
 const PORT = process.env.PORT || 3003
 app.listen(PORT, () => {
