@@ -1,5 +1,5 @@
 const express = require('express')
-var Blog = require('../db-models/BlogSchema.js')
+var Blog = require('../../db-models/BlogSchema.js')
 const router = express.Router()
 const ObjectId = require('mongoose').Types.ObjectId
 

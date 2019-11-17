@@ -1,5 +1,4 @@
 const mongoose = require('mongoose'); 
-const database = require('../routes/database.js')
 
 const { Schema } = mongoose; 
 const ObjectId = Schema.ObjectId;
@@ -12,4 +11,4 @@ var BlogSchema = new Schema({
     date: { type: Date, default: Date.now },
 });
 
-module.exports = database.getConnection().model('Blogs', BlogSchema);
+module.exports = mongoose.model('Blogs', BlogSchema);
